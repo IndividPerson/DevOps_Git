@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 using namespace std; // что бы не писать везде std::
 
 
