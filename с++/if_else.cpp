@@ -17,9 +17,9 @@ int main() {
         std::cout << "you are demon sybau" << std::endl;
     }
 
-        else {
+    else {
             std::cout << "вы несовершеннолетний" << std::endl;
-        }      
+    }      
 
 
     return 0;
