@@ -5,27 +5,16 @@ using namespace std;
 
 int main() {
 
-    // ссылка
-    int num = 10;
-    int &a = num; //'a' теперь ссылка на num и мы сэкономили память
+    int i = 10;
+    cout << &i; //амперсант выводит сам адрес
 
-    a = 15;
-    cout << &num <<endl;
-    cout << &a <<endl; 
+    int* ptr = &i; //указатель это переменная которая хранит адрес другой переменной
+    float f = 1.25;
+    float* ptr2 = &f;
+
+
+
     
-    cout << "---------------------\n";
-
-    // указатели
-    int val = 12;
-    int *ptrval = &val;
-
-    *ptrval = 20; // что бы обратиться к значению то нужно '*' ,без нее будет ссылка
-    ptrval = nullptr; // очищает
-    
-    cout << &val << " - " << val << endl;
-    cout << ptrval << " - " << *ptrval << endl;
-
-
 
 
     return 0;
