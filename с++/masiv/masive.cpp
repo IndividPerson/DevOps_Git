@@ -4,14 +4,11 @@ using namespace std;
 
 int main() {
 
-    int nums[3]; //масив из 3 елементов
-    nums[0] = 31;
-    nums[1] = 32;
-    nums[2] = 33;    
-    cout << nums[1] <<endl;
+    int numbers[5] = {10, 20, 30, 40, 50};
 
-    nums[1] = 40;
-    cout << nums[1] <<endl;
+    cout << numbers[0];   // 10  (нумерация с НУЛЯ)
+    cout << numbers[4];   // 50  (последний элемент, а не [5])
+    numbers[2] = 99;      // меняем третий элемент
 
     float nums2[3] = {1, 2, 3};
 
